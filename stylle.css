@@ -1,0 +1,81 @@
+body{
+width: 100%;
+font-size: 14px;
+font-family: 'Anton', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Dongle', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+background-color: #E5E5E5;
+}
+
+.page-head {
+position: relative;
+width: 80%;
+margin: 1rem auto;
+}
+
+.navigation{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.image-6 {
+    position: absolute;
+    top: -3rem;
+    left: 40%;
+    width: 15rem;
+    height: 13rem;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:#2E2E2E;
+
+}
+
+.image-logo{
+    margin-right: 0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.header-icons{
+    display: flex;
+    flex-direction: row;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 11.5rem;
+}
+
+.header-icons-item{
+    margin-right: 4rem;
+}
+
+.hero-text{
+ width: 80%;
+ height: 300px;
+ margin-top: 134px;
+
+}
+
+.hero-text-title{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #FF9401;
+}
+
+.weight-hero-text{
+    font-size: 7rem;
+    font-weight: 800;
+    line-height: 1rem;
+}
+
