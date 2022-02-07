@@ -109,11 +109,11 @@ margin-top: -2rem;
 
 .hero-button{
 width: 10rem;
-height: 2.5rem;
+height: 3rem;
 margin-top: 3.14rem;
 font-weight: 1.5rem;
 background-color: #FF9401;
-box-shadow: 0px 0px 100px -2px #FF9401;
+box-shadow: 0px 0px 30px -5px #FF9401;
 color: #fff;
 border-radius: 20px;
 border: none;
@@ -134,7 +134,7 @@ border: none;
 
 .hero-icons-item{
 margin-right: 2.1em;
-box-shadow: 0px 0px 100px -5px #FF9401;
+box-shadow: 0px 0px 50px -5px #FF9401;
 }
 
 .elipse-header-image{
@@ -266,6 +266,7 @@ padding-left: 50px;
 .main-p{
     font-size: 1.2rem;
     margin-top: 10px;
+    color:#3F3232;
 }
 
 .salat-image{
@@ -286,6 +287,7 @@ padding-left: 50px;
 
 /*SECTION-3*/
 .section-3{
+    height: 100vh;
 position: relative;
 color: #2E2E2E;
 background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
@@ -319,6 +321,7 @@ background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 2
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 72px;
 }
 
 .section-3-card-item{
@@ -328,8 +331,7 @@ background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 2
     margin-top: 73px;
     background-color: #ffffff;
     border-radius: 8px;
-    margin-bottom: 1000px;
-
+    box-shadow: 0px 0px 50px -10px #FF9401;
 }
 
 .section-3-card-item:last-child{
@@ -349,8 +351,10 @@ background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 2
 
 .section-3-card-item-title{
     margin-left: 10px;
+    margin-bottom: 15px;
     font-size: 1.42rem;
     font-weight: 600;
+    margin-top: 26px;
 }
 
 .section-3-card-item-button{
@@ -376,14 +380,135 @@ background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 2
     color:#818181;
 }
 
-.section-3-point{
-position: absolute;
-}
-
 .section-3-card-item-cost{
+    font-style: italic;
     font-weight: 700;
     margin-right: 20px;
-    padding-top: 30px;
     line-height: 60px;
     color: #FF9401;
 }
+
+.img-star-section-3{
+    width: 11px;
+    height: 11px;
+}
+
+.section-3-button-block{
+    display: flex;
+    justify-content: center;
+}
+
+.section-3-button{
+    width: 224px;
+    height: 62px;
+    font-weight: 500;
+    font-size: 1.42rem;
+    line-height: 30px;
+    background-color: #FF9401;
+    box-shadow: 0px 0px 50px -1px #FF9401;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+}
+
+
+/*SECTION4*/
+
+.section-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    width: 69%;
+    margin-top: 157px;
+    margin-bottom: 0;
+    margin: 200px;
+}
+
+.section-4-main{
+    margin-left: 116px;
+}
+
+.section-4-title{
+font-weight: 500;
+font-size: 1.7rem;
+line-height: 2rem;
+color: #FF9401;
+}
+
+.section-4-font-weight{
+width: 360px;
+margin-bottom: 18px;
+font-size: 3.4rem;
+color: #2E2E2E;
+}
+
+.section-4-p{
+    width: 440px;
+    font-weight: 500;
+    font-size: 1.42rem;
+    line-height: 160%;
+    color: #3F3232;
+    
+}
+
+.cola-image{
+    position: absolute;
+    top: -200px;
+    left: -220px;
+}
+
+.section-4-salat-image{
+    position: absolute;
+    top:-100px;
+    left:860px;
+}
+
+.section-4-icons{
+    color:  #2E2E2E;
+    border: 2px solid #2E2E2E;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+ /*SECTION5*/
+
+ .section-5{
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin: -50px auto;
+     width: 80%;
+     color: #2E2E2E;
+ }
+
+.section-5-main{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+ .section-5-title{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #FF9401;
+    margin-bottom: -25px;
+ }
+
+ .section-5-weight-text{
+     width: 390px;
+     font-weight: 700;
+     font-size: 3.42rem;
+ }
+
+ .section-5-p{
+
+     margin-top: -30px;
+    font-family: Circular Std;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.28rem;
+    line-height: 160%;
+    color: #3F3232;
+ }
+
+ 
